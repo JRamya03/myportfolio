@@ -14,7 +14,6 @@ export const About = ()=>{
     const nav = useNavigate()
     return(
         <div>
-           
            <Navbar expand="lg" className="bg-body-tertiary mt-3 navbar-light" id="navbar" >
   <Container fluid>
     <Navbar.Brand href="#" style={{fontSize:"20px", fontWeight:"bolder",marginLeft:"40px"}} className="me-auto">RAMYA JEGAN</Navbar.Brand>
@@ -29,7 +28,7 @@ export const About = ()=>{
       </Nav>
     </Navbar.Collapse>
   </Container>    
-   </Navbar>
+      </Navbar>
 
    <div class="card mb-3" id="home">
    <div class="row pt-5">

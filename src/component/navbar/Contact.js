@@ -10,8 +10,7 @@ import { IoArrowForwardCircle } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { FaPhone } from "react-icons/fa6";
 import { FaLocationPin } from "react-icons/fa6";
-import { RiStackshareLine } from "react-icons/ri";
-import { FaLink } from "react-icons/fa6";
+
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -129,7 +128,7 @@ export const Contact = ()=>{
               </div>
               <div>
                <p>  Whatsapp </p>   
-               <a   style={{textDecoration:"none",color:"white",fontSize:"18px"}}>  +91-8778810306 </a>   
+               <a href="ramyaj134@gmail.com" style={{textDecoration:"none",color:"white",fontSize:"18px"}}>  +91-8778810306 </a>   
               </div>
       </div>
     </div>

@@ -17,8 +17,6 @@ import { RiStackshareLine } from "react-icons/ri";
 import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
-
-
 export const Project = ()=>{
   let nav=useNavigate();
     return(
@@ -60,7 +58,7 @@ export const Project = ()=>{
     <div class="card border-0 mb-3" >
       <div class="card-body bg-dark text-light" > 
                <p ><RiStackshareLine style={{fontSize:"25px",color:"green", fontWeight:"bolder"}} />  ReactJS, Redux & Bootstrap </p>   
-        <img className="project1" src={p1} style={{width:"100%"}}/>
+        <img className="project1" alt="ppp" src={p1} style={{width:"100%"}}/>
         <div class="pt-4 pb-2">
         <a class="button2"  href="https://bigbasket-redux-withauth.netlify.app/"><FaLink /> </a>
         <a class="button2" href="https://github.com/JRamya03/bigbasket-redux"><FaGithub /></a>
@@ -75,7 +73,7 @@ export const Project = ()=>{
     <div class="card border-0 mb-3" >
       <div class="card-body bg-dark text-light" > 
                <p ><RiStackshareLine style={{fontSize:"25px",color:"green", fontWeight:"bolder"}} />  ReactJS, Context & Bootstrap </p>   
-        <img className="project1" src={p2} style={{width:"100%"}}/>
+        <img className="project1" alt="ppp" src={p2} style={{width:"100%"}}/>
         <div class="pt-4 pb-2">
         <a class="button2"  href="https://context-bb.netlify.app/"> <FaLink /> </a>
         <a class="button2" href="https://github.com/JRamya03/bigbasket-context"><FaGithub /></a>
@@ -90,7 +88,7 @@ export const Project = ()=>{
     <div class="card border-0 mb-3" >
       <div class="card-body bg-dark text-light" > 
                <p ><RiStackshareLine style={{fontSize:"25px",color:"green", fontWeight:"bolder"}} />  ReactJS, Redux & Bootstrap </p>   
-        <img className="project1" src={p3} style={{width:"100%"}}/>
+        <img className="project1" alt="ppp" src={p3} style={{width:"100%"}}/>
         <div class="pt-4 pb-2">
         <a class="button2"  href="https://crud-task-manage.netlify.app/"> <FaLink /> </a>
         <a class="button2" href="https://github.com/JRamya03/task-management-"><FaGithub /></a>
@@ -105,7 +103,7 @@ export const Project = ()=>{
     <div class="card border-0 mb-3" >
       <div class="card-body bg-dark text-light" > 
                <p ><RiStackshareLine style={{fontSize:"25px",color:"green", fontWeight:"bolder"}} />  HTML,CSS & Bootstrap</p>   
-        <img className="project1" src={p4} style={{width:"100%"}}/>
+        <img className="project1"alt="ppp" src={p4} style={{width:"100%"}}/>
         <div class="pt-4 pb-2">
         <a class="button2"  href="https://restaurant-app-bootstrap.netlify.app/"> <FaLink /> </a>
         <a class="button2" href="https://github.com/JRamya03/resApp-bootstrap"><FaGithub /></a>
@@ -120,7 +118,7 @@ export const Project = ()=>{
     <div class="card border-0 mb-3" >
       <div class="card-body bg-dark text-light" > 
                <p ><RiStackshareLine style={{fontSize:"25px",color:"green", fontWeight:"bolder"}} />  HTML & CSS </p>   
-        <img className="project1" src={p5} style={{width:"100%"}}/>
+        <img className="project1"alt="ppp" src={p5} style={{width:"100%"}}/>
         <div class="pt-4 pb-2">
         <a class="button2"  href="https://mybagstore-mq.netlify.app/"> <FaLink /> </a>
         <a class="button2" href="https://github.com/JRamya03/mybagstore-mq"><FaGithub /></a>
